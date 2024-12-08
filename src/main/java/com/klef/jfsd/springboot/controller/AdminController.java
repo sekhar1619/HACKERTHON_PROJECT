@@ -63,12 +63,18 @@ public class AdminController {
 		}
 		else
 		{
-			mv.setViewName("adminloginfail");
+			mv.setViewName("/adminloginfail");
 			mv.addObject("message","Login failed");
 		}
 		return mv;
 	}
 	
+	@GetMapping("/adminsessionfail")
+    public ModelAndView adminsessionfail() {
+        ModelAndView mv = new ModelAndView("adminsessionfail"); 
+        mv.addObject("message", "Session expired. Please log in again.");
+        return mv;
+    }
 	@GetMapping("deleteemp")
 	  public ModelAndView deletemp() 
 	  {

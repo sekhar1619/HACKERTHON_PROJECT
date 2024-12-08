@@ -258,7 +258,7 @@
                             <span class="star">⭐ 4.7</span>
                         </div>
                         <p class="text-muted">Beginner to Advance</p>
-                        <a href="#" class="btn btn-light">Explore</a>
+                        <a href="/JavaProgramming" class="btn btn-light">Explore</a>
                     </div>
                 </div>
             </div>

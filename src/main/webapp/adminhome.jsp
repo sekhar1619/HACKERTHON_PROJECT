@@ -9,6 +9,6 @@
 </head>
 <body>
 <%@include file="adminnavbar.jsp" %>
-Total Employees = <c:out value="${count}"></c:out>
+Total Students = <c:out value="${count}"></c:out>
 </body>
 </html>

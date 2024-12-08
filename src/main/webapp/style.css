@@ -11,8 +11,9 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  z-index: 1000;
+  z-index: 900;
   height: 60px;
+  padding-right: 10px;
 }
 
 .navbar h1 {
@@ -30,7 +31,7 @@
 }
 
 .navbar ul li {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .navbar ul li a {
@@ -189,3 +190,48 @@ input[type="reset"]:hover {
     font-size: 14px;
   }
 }
+.nav-links {
+    display: flex;
+    justify-content: space-around; /* Spreads links evenly */
+    align-items: center;
+    background-color: #323f4b; /* Dark background for navbar */
+    padding: 10px 20px; /* Padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Adds shadow effect */
+}
+
+.nav-links a {
+    text-decoration: none; /* Removes underline from links */
+    color: #ffffff; /* White text for links */
+    font-weight: bold; /* Makes text bold */
+    font-size: 14px; /* Adjusts font size */
+    padding: 8px 15px; /* Adds padding inside links */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    border-radius: 5px; /* Rounded corners for hover background */
+}
+
+.nav-links a:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #ffffff; /* Ensures text remains white on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25); /* Slight shadow on hover */
+}
+
+.nav-links a:active {
+    background-color: #0056b3; /* Darker blue for active state */
+    color: #ffffff; /* White text for active state */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+    .nav-links {
+        flex-direction: column; /* Stacks links vertically */
+        padding: 15px;
+    }
+
+    .nav-links a {
+        margin-bottom: 10px; /* Adds spacing between links */
+        width: 100%; /* Full-width links */
+        text-align: center; /* Centers text */
+    }
+}
+

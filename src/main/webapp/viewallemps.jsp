@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>View All Students</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         table {
             width: 100%;
@@ -39,7 +40,7 @@
     </style>
 </head>
 <body>
-    <h3 style="text-align: center;"><u>View All Employees</u></h3>
+    <h3 style="text-align: center;"><u>View All Students</u></h3>
     <table>
         <tr>
             <th>ID</th>
@@ -47,7 +48,7 @@
             <th>GENDER</th>
             <th>DATE OF BIRTH</th>
             <th>DEPARTMENT</th>
-            <th>SALARY</th>
+            <th>PRICE</th>
             <th>LOCATION</th>
             <th>EMAIL</th>
             <th>CONTACT</th>
