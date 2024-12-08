@@ -68,13 +68,7 @@ public class AdminController {
 		}
 		return mv;
 	}
-	
-	@GetMapping("/adminsessionfail")
-    public ModelAndView adminsessionfail() {
-        ModelAndView mv = new ModelAndView("adminsessionfail"); 
-        mv.addObject("message", "Session expired. Please log in again.");
-        return mv;
-    }
+
 	@GetMapping("deleteemp")
 	  public ModelAndView deletemp() 
 	  {
